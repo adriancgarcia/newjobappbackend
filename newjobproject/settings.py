@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'newjobs.apps.NewjobsConfig',
-    'rest_framework',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -80,8 +80,8 @@ DATABASES = {
     'default': dj_database_url.config(
         conn_max_age=600,
         conn_health_checks=True,
-    )
-    }
+    ),
+}
 
 
 # Password validation
