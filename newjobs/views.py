@@ -3,6 +3,9 @@ from rest_framework import viewsets, permissions
 from .serializers import NewjobSerializer
 
 # Create your views here.
+class NewjobViewSet(viewsets.ModelViewSet):
+    queryset=Newjob
+
 
 class NewjobViewSet(viewsets.ModelViewSet):
     ## queryset is a list of all Todo objects

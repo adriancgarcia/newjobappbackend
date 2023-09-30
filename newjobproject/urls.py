@@ -29,7 +29,6 @@ urlpatterns = [
     path("admin/", admin.site.urls)
 ]
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
