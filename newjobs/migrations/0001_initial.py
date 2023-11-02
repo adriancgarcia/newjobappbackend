@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('position', models.CharField(max_length=200)),
                 ('company_name', models.CharField(max_length=200)),
-                ('job_description', models.CharField(max_length=200)),
+                ('job_description', models.CharField(max_length=2000)),
                 ('applied', models.BooleanField(blank=True, null=True)),
                 ('type_of_resume_sent', models.CharField(max_length=200)),
                 ('date_applied', models.CharField(max_length=200)),

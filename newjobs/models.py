@@ -4,7 +4,7 @@ from django.db import models
 class Newjob(models.Model):
     position = models.CharField(max_length=200)
     company_name = models.CharField(max_length=200)
-    job_description = models.CharField(max_length=1000)
+    job_description = models.CharField(max_length=2000)
     applied = models.BooleanField(blank=True, null=True)
     type_of_resume_sent = models.CharField(max_length=200)
     date_applied = models.CharField(max_length=200)
